@@ -14,3 +14,22 @@ const products={
 
 // second product price
 console.log(products.data[1].price)
+
+
+const user={
+    id:1005,
+    name:'Sohanur Rahman',
+    address:
+    {
+        street: {
+            first:'11 Bagha',
+            second:'15 Bagha',
+            third:'420 Bagha'
+        },
+        city:'Rajshahi'
+    }
+}
+
+// access  user address second street
+
+console.log(user.address.street.second)
