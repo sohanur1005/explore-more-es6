@@ -13,5 +13,9 @@ function double2(num){
     return num*2;
 }
 
+const doubleIT=(n)=>n*2;
+
 const result =number.map(double2)
 console.log(result)
+const output =number.map(doubleIT)
+console.log(output)
