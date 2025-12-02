@@ -6,3 +6,9 @@ const selected=players.filter(p=>p>70);
 console.log(selected)
  const odd =players.filter(p=> p%2==1)
 console.log(odd)
+
+/*filter()
+
+Returns all matching elements.
+Always returns an array. */
+
