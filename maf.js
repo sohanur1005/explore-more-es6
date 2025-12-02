@@ -12,10 +12,10 @@ function double2(num){
     console.log('num now', num)
     return num*2;
 }
-
-const doubleIT=(n)=>n*2;
-
 const result =number.map(double2)
 console.log(result)
+
+// using arrow
+const doubleIT=(n)=>n*2;
 const output =number.map(doubleIT)
 console.log(output)
